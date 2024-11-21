@@ -23,7 +23,7 @@ while True:
     escolha = input("Digite o número da operação desejada: ")
 
     # Realizar as operações e exibir o resultado
-    if escolha == '1':
+    if escolha == '1':0
         resultado = num1 + num2
         print(f"Resultado da adição: {resultado}")
     elif escolha == '2':
@@ -43,3 +43,5 @@ while True:
         break
     else:
         print("Escolha inválida, tente novamente.")
+
+        
